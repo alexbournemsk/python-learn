@@ -1,0 +1,15 @@
+#loops and .pop() and .append()
+
+all_students = ["Alex", "Briana", "Cheri", "Daniele", "Dora", "Minerva", "Alexa", "Obie", "Arius", "Loki"]
+students_in_poetry = []
+
+i=0
+
+while len(students_in_poetry) < 6:
+  #students_in_poetry = all_students.pop()
+  number = all_students.pop()  
+  students_in_poetry.append(number)
+  print('cycle '+str(i))
+  i+=1
+
+print(students_in_poetry)
